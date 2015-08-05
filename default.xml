@@ -336,7 +336,6 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -440,11 +439,7 @@
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
-  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
@@ -466,14 +461,12 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
@@ -486,7 +479,6 @@
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
@@ -520,7 +512,6 @@
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" remote="aosp" />
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" remote="aosp" />
@@ -578,8 +569,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- KekROM -->
   <project path="build" name="KekROM/android_build" groups="pdk,tradefed" revision="kek-5.1" >
@@ -588,9 +577,11 @@
 
   <project path="android" name="KekROM/android" revision="kek-5.1" />
 
-  <project path="frameworks/base" name="KekROM/android_frameworks_base" />
-  <project path="packages/apps/Settings" name="KekROM/android_packages_apps_Settings" />
+  <project path="frameworks/base" name="KekROM/android_frameworks_base" revision="kek-5.1" />
+  <project path="frameworks/native" name="KekROM/android_frameworks_native" groups="pdk" revision="kek-5.1" />
+  <project path="packages/apps/Settings" name="KekROM/android_packages_apps_Settings" revision="kek-5.1" />
 
+  <project path="vendor/cm" name="KekROM/android_vendor_cm" revision="kek-5.1" />
   <project path="vendor/kek" name="KekROM/android_vendor_kek" revision="kek-5.1" >
     <copyfile src="tools/build-kek.sh" dest="build-kek.sh" />
   </project>
