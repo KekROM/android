@@ -443,7 +443,6 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
@@ -579,6 +578,8 @@
 
   <project path="frameworks/base" name="KekROM/android_frameworks_base" revision="kek-5.1" />
   <project path="frameworks/native" name="KekROM/android_frameworks_native" groups="pdk" revision="kek-5.1" />
+
+  <project path="packages/apps/DeskClock" name="KekROM/android_packages_apps_DeskClock" revision="kek-5.1" />
   <project path="packages/apps/Settings" name="KekROM/android_packages_apps_Settings" revision="kek-5.1" />
 
   <project path="vendor/cm" name="KekROM/android_vendor_cm" revision="kek-5.1" />
